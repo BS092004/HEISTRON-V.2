@@ -44,7 +44,6 @@ console.log('\x1b[36m%s\x1b[0m', '|    ❌ Commands Failed To Load!');
 
 console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}`);
 
-const totalMembers = client.guilds.cache.reduce((total, guild) => total + guild.memberCount, 0);
 setInterval(() => client.user.setActivity({ 
   name:`HEISTERS`, 
   type: ActivityType.Watching }), 10000);
